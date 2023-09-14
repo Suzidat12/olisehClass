@@ -1,2 +1,2 @@
 # olisehClass
-For training purposes
+For training purposes so that we can learn effectively
