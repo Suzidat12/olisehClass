@@ -23,8 +23,6 @@ public class Employee {
                 '}';
     }
 
-    public Employee() {
-    }
 
     public double bonus(double amount){
         return amount;
@@ -40,8 +38,8 @@ public class Employee {
         System.out.println(employee1);
         double bonus = employee.bonus(100.50);
         double debt = employee.debt(100.50);
-        System.out.println("Bonus: " +" "+bonus );;
-        System.out.println("Debt: " +" "+debt);;
+        System.out.println("Bonus: " +" "+bonus );
+        System.out.println("Debt: " +" "+debt);
         double salary = employee1.salary + bonus;
         System.out.println("Salary: " + " "+ salary);
 
